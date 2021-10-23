@@ -9,23 +9,27 @@
 /* Begin PBXBuildFile section */
 		5A525985271EC761003A989C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A525984271EC761003A989C /* AppDelegate.swift */; };
 		5A525987271EC761003A989C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A525986271EC761003A989C /* SceneDelegate.swift */; };
-		5A525989271EC761003A989C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A525988271EC761003A989C /* ViewController.swift */; };
+		5A525989271EC761003A989C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A525988271EC761003A989C /* LoginViewController.swift */; };
 		5A52598C271EC761003A989C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A52598A271EC761003A989C /* Main.storyboard */; };
 		5A52598F271EC761003A989C /* NavigationViewController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A52598D271EC761003A989C /* NavigationViewController.xcdatamodeld */; };
 		5A525991271EC762003A989C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A525990271EC762003A989C /* Assets.xcassets */; };
 		5A525994271EC762003A989C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A525992271EC762003A989C /* LaunchScreen.storyboard */; };
+		5A52599E271ECB2D003A989C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A52599D271ECB2D003A989C /* RegisterViewController.swift */; };
+		5AC0EE4A27229E5900F4A947 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC0EE4927229E5900F4A947 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A525981271EC761003A989C /* NavigationViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A525981271EC761003A989C /* NavigationViewControllergationViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationViewControllergationViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A525984271EC761003A989C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A525986271EC761003A989C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5A525988271EC761003A989C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A525988271EC761003A989C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5A52598B271EC761003A989C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A52598E271EC761003A989C /* NavigationViewController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NavigationViewController.xcdatamodel; sourceTree = "<group>"; };
 		5A525990271EC762003A989C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A525993271EC762003A989C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A525995271EC762003A989C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A52599D271ECB2D003A989C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5AC0EE4927229E5900F4A947 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +54,7 @@
 		5A525982271EC761003A989C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A525981271EC761003A989C /* NavigationViewController.app */,
+				5A525981271EC761003A989C /* NavigationViewControllergationViewController.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,9 +62,9 @@
 		5A525983271EC761003A989C /* NavigationViewController */ = {
 			isa = PBXGroup;
 			children = (
+				5A52599F271ECB34003A989C /* Controllers */,
 				5A525984271EC761003A989C /* AppDelegate.swift */,
 				5A525986271EC761003A989C /* SceneDelegate.swift */,
-				5A525988271EC761003A989C /* ViewController.swift */,
 				5A52598A271EC761003A989C /* Main.storyboard */,
 				5A525990271EC762003A989C /* Assets.xcassets */,
 				5A525992271EC762003A989C /* LaunchScreen.storyboard */,
@@ -70,12 +74,22 @@
 			path = NavigationViewController;
 			sourceTree = "<group>";
 		};
+		5A52599F271ECB34003A989C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A525988271EC761003A989C /* LoginViewController.swift */,
+				5A52599D271ECB2D003A989C /* RegisterViewController.swift */,
+				5AC0EE4927229E5900F4A947 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5A525980271EC761003A989C /* NavigationViewController */ = {
+		5A525980271EC761003A989C /* NavigationViewControllergationViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A525998271EC762003A989C /* Build configuration list for PBXNativeTarget "NavigationViewController" */;
+			buildConfigurationList = 5A525998271EC762003A989C /* Build configuration list for PBXNativeTarget "NavigationViewControllergationViewController" */;
 			buildPhases = (
 				5A52597D271EC761003A989C /* Sources */,
 				5A52597E271EC761003A989C /* Frameworks */,
@@ -85,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = NavigationViewController;
+			name = NavigationViewControllergationViewController;
 			productName = NavigationViewController;
-			productReference = 5A525981271EC761003A989C /* NavigationViewController.app */;
+			productReference = 5A525981271EC761003A989C /* NavigationViewControllergationViewController.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A525980271EC761003A989C /* NavigationViewController */,
+				5A525980271EC761003A989C /* NavigationViewControllergationViewController */,
 			);
 		};
 /* End PBXProject section */
@@ -142,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A52598F271EC761003A989C /* NavigationViewController.xcdatamodeld in Sources */,
-				5A525989271EC761003A989C /* ViewController.swift in Sources */,
+				5A52599E271ECB2D003A989C /* RegisterViewController.swift in Sources */,
+				5A525989271EC761003A989C /* LoginViewController.swift in Sources */,
+				5AC0EE4A27229E5900F4A947 /* MainViewController.swift in Sources */,
 				5A525985271EC761003A989C /* AppDelegate.swift in Sources */,
 				5A525987271EC761003A989C /* SceneDelegate.swift in Sources */,
 			);
@@ -354,7 +370,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A525998271EC762003A989C /* Build configuration list for PBXNativeTarget "NavigationViewController" */ = {
+		5A525998271EC762003A989C /* Build configuration list for PBXNativeTarget "NavigationViewControllergationViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A525999271EC762003A989C /* Debug */,
